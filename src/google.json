@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "facilito-app",
+  "private_key_id": "22fe55dcaa98b3ffe8d5497d7b4b642280251770",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDbqsl2x2lzqZeu\nRG8uGaOtHfx+eQ6aff8ynJZct3diI9ZhXfzrHsfZ4DYQm1ibZiIeXE07P8+w+l8o\nXNbh785I4QHIOK30/tzBc05kj3338EygLQSKw/lM40d9C+0l65tC1ZRbC+P91/yy\nTNFA0MTTVT8l3h6lIZ4+96W7xVmzOnDiwG3Rn+0BsYPvGnqt19Qo2htRER+O/gpB\nK+hBMvbcdSMA2uLpXLFnTenQbZVsbQo9oOK0x8r/YBQOLiODNtYfp2tUxwXfIHBB\nv+kw1uJpDKlLGBX3zZK/u+UvK2iu0ZZEAZg4YNlcolK4UAmy8vpImXw9gyOIkxop\n6dXui1XBAgMBAAECggEAAc4sZ/UhWx2flSNzmPjFuTpj/PuceL1Um7tA+pvY57X0\n8PmrZpjLCnG+7AHE14keOmrmiRhAChuyrMOfkf2NL9jmkXlSx67RDGd401eBEOi5\nDn90ODo+WikLiT3v+eXu8ZyNArcNLYTJC0OZnCtjFLwQf+yMiq2lLe4N3wZTE4eh\nZu0HkxU4ETHK6sSJ/bFHC/1Awq2yjrWxYS/N8n05KS1bGOVb5e7vCtbAh5zW0YcZ\niEcqEBS6IoQ/PzOHapjQEBbw2F5J5oh45tBUN+XuazKahiyf+OJz85Q4knLTStcJ\nuqUk9uGu69h8itsfzOqMDjPt+0cNpdCTp3VDPDT54QKBgQD5rE9xi0tWogFqxbyc\nVZ5u/myRziF0qf5A62j0eIdO87qcSTELrfjnUwudCaLJef06/YAAfirr37vVIr21\n7S5MjSFAfVPP0gzCbzzDWDPwxrfv9lB3wlL1+pNYeB6L6p22rm0XSYjLFL0hU65A\nmXgmYTq1kfFy6FsVLfrfMA800QKBgQDhO9IfGGKn4a9zfw66xDlIC+015N1gMz4g\nA0WIShq94P9P4XMpftdau6gh8kiZ/JNO+1s9tTKaNducKMxHvbrAogdMJI+Kf65L\n1lLkJifQPlUYBK7VZZPhX8gN+KD6J8vA12hedmh1KofphZXFClfZMPypORGEfLQV\nXWgClMwN8QKBgQDYiG5l5Q6z1dEwzsljNIYxcQqr8X/mdEAEAaaGz7lZ6dugC4Iz\nxPAnf0iFK4Q5BElwzcYjp0iGRQXcNUMe8tLCpWt/SLJVfLCAOIUUTfzOByojPRZQ\npwHYPzdm9NZZNmMNunz2Q1oV9qiIrNBlSjR/5LdMHYSvyYCk/7mhs0ac4QKBgE59\nAC4h209RkEiZQFLJSoTW0yTyykpZ0Q5q1XI3ELaWj6IQmIcfUoCl4GNkAPTYVaUy\nZotMd4PRvOPgO7/MWCYE0LIyE2taLyzyVRR4T2t8LT8fcqWerjfdnuNvfvltoM1k\nw1QXwzMBTTeNe7GcdxySu5lk77vRkRfY4wPzQmChAoGAE7hTlyFKJ/nqVhwXE13P\nnjMB8WS1Z4dcoWUUC/7ylji5gLh0ZDNbpcssmEiC1RCLaeeCTa8jtY0tqOezkUq9\nxttUAPgiUWibc164D5LFRXUBsDhKWVgoMj2tLBSyrzKHj53EcI76Yt8upE+8PDuD\nHMs79qg2dZSH9Dnwy5OlLJ8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-jwtjx@facilito-app.iam.gserviceaccount.com",
+  "client_id": "111474575047072786614",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-jwtjx%40facilito-app.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
