@@ -2,6 +2,7 @@ import { toFixed } from "../tools";
 import { DataProps } from "../types";
 import { getFacturaCCFData } from "./ccf";
 import { getFacturaData } from "./factura";
+import { getNCData } from "./nc";
 
 const getNUCData = (props: DataProps) => {
   const now = new Date();
@@ -15,6 +16,7 @@ const getNUCData = (props: DataProps) => {
   const customerAddress = body.data?.["personal_address_0"]?.answer;
   const customerNotes = body.data?.["personal_instructions_0"]?.answer;
   const customerTaxId = body.data?.["personal_taxId_0"]?.answer;
+  const customerActivityCode = body.data?.["personal_activityCode_0"]?.answer;
   const customerNRC = body.data?.["personal_nrc_0"]?.answer;
   const subsidiary = body.data?.["subsidiary"]?.answer;
   const grandTotal = toFixed(
@@ -29,6 +31,7 @@ const getNUCData = (props: DataProps) => {
     customerNotes,
     customerPhone,
     customerTaxId,
+    customerActivityCode,
   };
 
   const nucContext = {
@@ -42,6 +45,7 @@ const getNUCData = (props: DataProps) => {
   const invoices = {
     Factura: getFacturaData(nucContext),
     "Comprobante de Crédito Fiscal": getFacturaCCFData(nucContext),
+    "Nota de Crédito": getNCData(nucContext),
   } as const;
 
   const currentInvoice = invoices[invoiceType as keyof typeof invoices];
