@@ -105,6 +105,7 @@ export interface NUCProps {
   customerTaxId: string;
   customerExport?: ExportCustomer;
   customerNRC: string;
+  customerActivityCode?: string;
   subsidiary: string;
   grandTotal: string;
 }
